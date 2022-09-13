@@ -17,6 +17,14 @@ import com.javacourse.project.hibernateAndJpa.Business.ICityService;
 public class CityController {
 	private ICityService cityService;
 
+	
+	// GET    : Veri görüntülemek istediğimiz zaman kullanılır.                @GetMapping
+	// POST   : Veri kaydetmek istediğimiz zaman kullanılır.                   @PostMapping
+	// PUT    : Veri güncellemek için kullanılır.					   @PutMapping
+	// PATCH  : Verinin bir bölümünü güncellemek istediğimiz zaman kullanırız  @PatchMapping
+      //		Örn: Parola güncellemek gibi
+	// DELETE : Veri silmek istediğimiz zaman kullanırız                       @DeleteMapping
+
 	@Autowired
 	public CityController(ICityService cityService) {
 		this.cityService = cityService;
