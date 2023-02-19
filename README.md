@@ -1,6 +1,6 @@
 # SpringFramework-sample-architecture
 
 ## Layered Architecture
-- Bir kurs sitesinin Backend ve VeriTabanı sisteminin simüle edilmesi
-- SOLID prensiplerine uygun DBA mİmarisi
-- Dependency Injection ile korunan bağımlılıklar
+- Simulating the Backend and Database system of a course site
+- DBA architecture in accordance with SOLID principles
+- Dependencies protected by Dependency Injection
